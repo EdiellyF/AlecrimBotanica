@@ -18,7 +18,22 @@ header {
 
 .nav-item a {
     text-decoration: none;
-    color: #1d1d1d;
+    color: #898989;
     font-size: 1.2rem;
     font-weight: 500;
 }
+
+
+.nav-item a:hover {
+    color: #3c3c3c;
+}
+
+#hero {
+    width: 100%;
+    height: calc(100vh - 40px);
+    background: url(../img/hero-bg.png) center bottom no-repeat;
+    background-size: 100%;
+    position: relative;
+    margin-top: 30px;
+
+  }
