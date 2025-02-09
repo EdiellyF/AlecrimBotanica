@@ -194,6 +194,7 @@ a {
  label{
   display: block;
   margin-bottom: 6px;
+  color: #6b6666;
  }
 
  .botao{
@@ -254,4 +255,5 @@ a {
   .button:hover{
     cursor: pointer;  
     background-color: #649e56;
+
   }
