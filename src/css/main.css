@@ -174,4 +174,86 @@ a {
     clear: both;
     display: table;
   }
+
+  .principal{
+    padding: 20px;
+    text-align: center;
   
+  }
+
+  h2{
+    margin-bottom: 30px;
+    color: #71c55d;
+    margin-top: 30px;
+  }
+
+ span{
+  color:#F51010;
+ }
+
+ label{
+  display: block;
+  margin-bottom: 6px;
+  color: #6b6666;
+ }
+
+ .botao{
+  margin-top: 30px;
+  padding: 10px auto;
+  width: 130px;
+  height: 40px;
+  background-color: #71c55d;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  transition: 2s;
+  text-align: center;
+  text-transform: uppercase;
+ }
+
+ .botao:hover{
+  cursor: pointer;  
+  background-color: #649e56;
+ }
+
+ img{
+  margin-top: 55px;
+ }
+
+ input{
+  border: 1.5px solid #649e56;
+  height: 30px;
+  width: 300px;
+  margin-bottom: 30px;
+  border-radius: 8px ;
+
+ }
+
+ input:hover{
+  border: 1px solid #4f7c44;
+  cursor: pointer;
+ }
+
+  .login-container{
+    display: block;
+  }
+
+  .button{
+  margin-top: 30px;
+  padding: 10px auto;
+  width: 130px;
+  height: 40px;
+  background-color: #71c55d;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  transition: 2s;
+  text-align: center;
+  text-transform: uppercase;
+  }
+
+  .button:hover{
+    cursor: pointer;  
+    background-color: #649e56;
+
+  }
