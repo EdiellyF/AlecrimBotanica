@@ -13,7 +13,16 @@
 <body>
 
     <header>
-        <nav id="navbar">
+       
+
+        <nav id="navbar"> 
+            <div class="hamburger" id="hamburger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+          
+
             <ul id="nav_list">
                 <li class="nav-item"><a href="./index.html">Home</a></li>
                 <li class="nav-item"><a href="./cadastro.html">Cadastro de Pesquisadores</a></li>
@@ -24,44 +33,61 @@
                 <li class="nav-item"><a href="#home">Contato</a></li>
             </ul>
         </nav>
+
+
     </header>
 
-  <section id="hero">
-            <div class="hero-container" data-aos="fade-in">
+    <main>
 
-                <h1>Bem-vindo ao Sistema de Pesquisas Botânicas!</h1>
-                <p>Este é um sistema de pesquisas botânicas que permite que pesquisadores, voluntários e interessados em
-                    plantas e árvores possam compartilhar informações sobre suas pesquisas e descobertas.</p>
-                <p>Se você é um pesquisador ou voluntário, você pode cadastrar-se e compartilhar suas pesquisas e
-                    descobertas com outros pesquisadores e interessados.</p>
-                <p>O sistema de pesquisas Botânicas organiza, analisa e compartilha informações sobre plantas e outros
-                    organismos vegetais. Ele pode ser usado por cientistas, estudantes, agricultores, conservacionistas
-                    e outros profissionais interessados no estudo da botânica. Esse tipo de sistema pode ser parte de um
-                    banco de dados maior ou de uma plataforma especializada voltada para o desenvolvimento de pesquisas
-                    científicas.</p>
-    </main>
-
-
-
+    <section id="welcome" class="welcome-section">
+        <div class="welcome-container" data-aos="fade-in">
+            <h2 id="mensagem-digitada"></h2>
+            <p>Este é um sistema de pesquisas botânicas que permite que pesquisadores, voluntários e interessados em plantas e árvores possam compartilhar informações sobre suas pesquisas e descobertas.</p>
+            <p>Se você é um pesquisador ou voluntário, você pode cadastrar-se e compartilhar suas pesquisas e
+            descobertas com outros pesquisadores e interessados.</p>
+        </div>
+    </section>  
+   
+   
     <section class="login">
         <div class="login-container"> 
-            
             <h2>Login</h2>
             <form>
                 <label for="email">E-mail<span>*</span></label>
                 <input type="email" id="email" name="email" required>
 
                 <label for="senha">Senha<span>*</span></label>
-                <input type="password" id="senha" name="senha" maxlength="8" required>
+                <input type="password" id="senha" name="senha" maxlength="8" required>                
+                <input class="button" type="submit" value="Entrar"> 
             </form>
-                <input class="button" type="submit" value="Entrar">
+           
     
         </div>
-       
     </section>
+    </main>
 
 
 
+
+    <article class="container">
+         <section id="arvores"></section>
+    </article>
+
+
+
+
+  
+
+    <footer id="hero">
+        <div class="footer-content">   
+        </div>
+    </footer>
+
+
+
+
+    <script src="./src/js/index.js"></script>
+    <script src="./src/js/getJsonCerradoData.js"></script>
 
 </body>
 

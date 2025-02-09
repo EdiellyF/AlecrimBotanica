@@ -11,7 +11,13 @@
 
 body {
     background: #ffffff;
+   
 
+}
+
+main {
+  flex: 1;
+  padding-bottom: 200px; /* Space for footer */
 }
 
 a {
@@ -25,7 +31,7 @@ a {
   /*Login */
 
   .login {
-    display: inline-block;
+    display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
@@ -39,141 +45,74 @@ a {
     align-items: center;
     width: 100%;
     height: 100%;
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   .login-container h1 {
-    font-size: 2.5rem;
+    font-size: 2.0rem;
     display: inline-block;
     align-items: center;
   }
 
+
+
   
-  #hero {
+  footer#hero {
     width: 100%;
-    height: calc(100vh - 40px);
+    height: 200px;
     background: url(../img/hero-bg.png) center bottom no-repeat;
-    background-size: 100%;
-    position: relative;
-    margin-top: 20px;
-   
-  }
-  
-  @media (min-width: 1025px) {
-    #hero {
-      background-attachment: fixed;
-    }
-  }
-  
-  @media (min-width: 1025px) and (max-height: 768px) {
-    #hero {
-      height: 110vh;
-    }
-  }
-  
-  @media (max-height: 600px) {
-    #hero {
-      height: 200vh;
-    }
-  }
-  
-  #hero .hero-container {
-    position: absolute;
+    background-attachment: fixed;
+    position: fixed;
     bottom: 0;
-    top: 0;
     left: 0;
-    right: 0;
-    display: flex;
+    z-index: -1;
+    background-size: contain;  /* Changed from 100% auto to contain */
+}
 
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
+
+@media screen and (max-width: 1024px) {
+  main {
+      padding-bottom: 100px;
   }
   
-  #hero h1 {
-    margin: 10px;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 56px;
-    font-family: "Philosopher", sans-serif;
-    color: #71c55d;
+  footer#hero {
+      background-size: contain;
+      background-position: bottom center;
+      width: 100%;
+      height: 180px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main {
+      padding-bottom: 150px;
   }
   
-  @media (max-width: 768px) {
-    #hero h1 {
-      font-size: 28px;
-      line-height: 36px;
-    }
+  footer#hero {
+      height: 150px;
+      background-size: 150% auto; 
+  }
+}
+
+@media screen and (max-width: 480px) {
+  main {
+      padding-bottom: 120px;
   }
   
-  #hero h2 {
-    color: #777;
-    margin-bottom: 30px;
-    font-size: 20px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
+  footer#hero {
+      height: 120px;
+      background-size: 200% auto;  /* Aumenta a largura da imagem */
+  }
+}
+
+/* For very small screens */
+@media screen and (max-width: 320px) {
+  main {
+      padding-bottom: 100px;
   }
   
-  @media (max-width: 768px) {
-    #hero h2 {
-      font-size: 18px;
-      line-height: 24px;
-      margin-bottom: 30px;
-    }
-  }
-  
-  #hero img {
-    max-width: 95%;
-    margin-bottom: 30px;
-  }
-  
-  #hero .btn-get-started {
-    font-family: "Roboto", sans-serif;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 13px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 11px 36px;
-    border-radius: 50px;
-    transition: 0.5s;
-    margin-bottom: 30px;
-    border: 2px solid #71c55d;
-    background: #fff;
-    color: #71c55d;
-    text-decoration: none;
-  }
-  
-  #hero .btn-get-started:hover {
-    background: #71c55d;
-    color: #fff;
-  }
-  
-  #hero .btns a {
-    color: #555;
-    font-size: 11px;
-    font-weight: 600;
-    text-transform: uppercase;
-    margin: 4px 20px;
-    text-decoration: none;
-    transition: 0.3s;
-  }
-  
-  @media (max-width: 575px) {
-    #hero .btns a {
-      margin: 4px 8px;
-    }
-  }
-  
-  #hero .btns a:hover {
-    color: #71c55d;
-  }
-  
-  .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+
+}
 
   .principal{
     padding: 20px;
@@ -187,9 +126,7 @@ a {
     margin-top: 30px;
   }
 
- span{
-  color:#F51010;
- }
+
 
  label{
   display: block;
@@ -224,7 +161,7 @@ a {
   border: 1.5px solid #649e56;
   height: 30px;
   width: 300px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   border-radius: 8px ;
 
  }
@@ -234,22 +171,46 @@ a {
   cursor: pointer;
  }
 
-  .login-container{
-    display: block;
-  }
+.login {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+
+form {
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
 
   .button{
-  margin-top: 30px;
-  padding: 10px auto;
-  width: 130px;
-  height: 40px;
-  background-color: #71c55d;
-  border: none;
-  border-radius: 8px;
-  color: #fff;
-  transition: 2s;
-  text-align: center;
-  text-transform: uppercase;
+    margin-top: 20px;
+    padding: 10px auto;
+    width: 130px;
+    height: 40px;
+    background-color: #71c55d;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    transition: 2s;
+  
+    text-transform: uppercase;
   }
 
   .button:hover{
@@ -257,3 +218,34 @@ a {
     background-color: #649e56;
 
   }
+
+.welcome-section {
+    padding: 0px 19px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.welcome-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.welcome-section h2 {
+    color: #71c55d;
+    margin-bottom: 10px;
+}
+
+.welcome-section p {
+    margin-bottom: 0.4rem;
+    line-height: 1.2;
+    color: #6b6666;
+    text-emphasis: bold;
+}
+
+
+.checkbtn {
+   font-size: 1.5rem;
+   color: #71c55d;
+   cursor: pointer;
+}
