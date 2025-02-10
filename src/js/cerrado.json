@@ -13,6 +13,7 @@
     },
     {
       "nome": "Ipê-Amarelo",
+      "pesquisador": "Dr. João Santos",
       "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGPwNvlNuLvl-0shzDWpdN325NwxTtJ6pBWw&s",
       "idade": "40 anos",
       "altura": "15 metros",
@@ -23,6 +24,7 @@
     },
     {
       "nome": "Araucária",
+      "pesquisador": "Dra. Ana Pereira",
       "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR604Rbohan53ONzJH1k3kxJTVNUZrnv9fNQA&s",
       "idade": "80 anos",
       "altura": "30 metros",
@@ -33,6 +35,7 @@
     },
     {
       "nome": "Copaíba",
+      "pesquisador": "Dr. Carlos Lima",
       "imagem": "https://ogimg.infoglobo.com.br/in/25399084-21c-345/FT1086A/copaiba-copaifera-reticulata.jpg",
       "idade": "120 anos",
       "altura": "25 metros",
@@ -43,6 +46,7 @@
     },
     {
       "nome": "Jatobá",
+      "pesquisador": "Dra. Patricia Costa",
       "imagem": "https://smastr16.blob.core.windows.net/portalnovomedia/2016/02/2943898045_08391e00e5_o.jpg",
       "idade": "200 anos",
       "altura": "22 metros",
@@ -53,6 +57,7 @@
     },
     {
       "nome": "Castanheira",
+      "pesquisador": "Dr. Ricardo Oliveira",
       "imagem": "https://static.wixstatic.com/media/129e86_c21977943aac40f5983227c9689427bc~mv2.jpg/v1/fill/w_568,h_852,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/129e86_c21977943aac40f5983227c9689427bc~mv2.jpg",
       "idade": "300 anos",
       "altura": "40 metros",
@@ -63,6 +68,7 @@
     },
     {
       "nome": "Cajueiro",
+      "pesquisador": "Dra. Fernanda Souza",
       "imagem": "https://matanativa.com.br/wp-content/uploads/2018/09/Untitled-design-3-e1639139898660.jpg",
       "idade": "70 anos",
       "altura": "10 metros",
@@ -73,6 +79,7 @@
     },
     {
       "nome": "Mangueira",
+      "pesquisador": "Dr. Luis Andrade",
       "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ42Te-grpD2AlBrvlVn1VEVLAFlFyfBKjJpQ&s",
       "idade": "50 anos",
       "altura": "18 metros",
@@ -83,6 +90,7 @@
     },
     {
       "nome": "Figueira",
+      "pesquisador": "Dra. Beatriz Mendes",
       "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKnuOcPciX7gyjTOULb5GV9HNQQpZX6prnQQ&s",
       "idade": "250 anos",
       "altura": "35 metros",
@@ -93,6 +101,7 @@
     },
     {
       "nome": "Baobá",
+      "pesquisador": "Dr. Paulo Ferreira",
       "imagem": "https://upload.wikimedia.org/wikipedia/commons/1/12/Baobob_tree.jpg",
       "idade": "500 anos",
       "altura": "25 metros",
@@ -103,6 +112,7 @@
     },
     {
       "nome": "Jequitibá",
+      "pesquisador": "Dra. Laura Santos",
       "imagem": "https://greensaopaulo.com.br/wp-content/uploads/2022/06/Jequitiba-branco.jpg",
       "idade": "500 anos",
       "altura": "45 metros",
@@ -113,6 +123,7 @@
     },
     {
       "nome": "Jacarandá",
+      "pesquisador": "Dr. Marcos Almeida",
       "imagem": "https://images.tcdn.com.br/img/img_prod/350075/muda_de_jacaranda_mimoso_roxo_feita_de_semente_12157_1_20220412114305.jpg",
       "idade": "60 anos",
       "altura": "12 metros",
@@ -123,6 +134,7 @@
     },
     {
       "nome": "Eucalipto",
+      "pesquisador": "Dra. Sofia Castro",
       "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAS5V1cl6OFhErfKey8xP3x_Y7jvTryPCYKQ&s",
       "idade": "30 anos",
       "altura": "50 metros", 
@@ -133,6 +145,7 @@
     },
     {
       "nome": "Cedro",
+      "pesquisador": "Dr. Roberto Dias",
       "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAsl4nXQxV_Qhf8aWvbuhLtiwfZPqy8PMUwA&s",
       "idade": "150 anos",
       "altura": "35 metros",
@@ -143,6 +156,7 @@
     },
     {
       "nome": "Paineira",
+      "pesquisador": "Dra. Julia Ribeiro",
       "imagem": "https://cdn.awsli.com.br/600x1000/496/496853/produto/113385706/f8cc549260.jpg",
       "idade": "100 anos",
       "altura": "25 metros",
@@ -153,6 +167,7 @@
     },
     {
       "nome": "Sucupira",
+      "pesquisador": "Dr. Daniel Costa",
       "imagem": "https://rededesementesdocerrado.com.br/images/sementes/fabaceae/Sucupira-branca/Pterodon_emarginatus_1_Mauricio_Mercadante.jpg",
       "idade": "80 anos",
       "altura": "20 metros",
@@ -163,6 +178,7 @@
     },
     {
       "nome": "Angico",
+      "pesquisador": "Dra. Mariana Rocha",
       "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJUpv7q53qXyogxXETgHjvJ_JXWcPHh44v1A&s",
       "idade": "90 anos",
       "altura": "28 metros",
@@ -173,6 +189,7 @@
     },
     {
       "nome": "Imbuia",
+      "pesquisador": "Dr. Gabriel Martins",
       "imagem": "https://upload.wikimedia.org/wikipedia/commons/5/52/Ocotea_porosa_-_Jardim_Bot%C3%A2nico_de_S%C3%A3o_Paulo_-_IMG_0360.jpg",
       "idade": "250 anos",
       "altura": "30 metros",
@@ -183,6 +200,7 @@
     },
     {
       "nome": "Canafístula",
+      "pesquisador": "Dra. Isabel Gomes",
       "imagem": "https://cdn.awsli.com.br/600x450/163/163535/produto/118834537/51c7d9f6af.jpg",
       "idade": "70 anos",
       "altura": "18 metros",
@@ -193,6 +211,7 @@
     },
     {
       "nome": "Pitangueira",
+      "pesquisador": "Dr. Rafael Nunes",
       "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUM-3uY8WPKPo-0ZcEkEIaCy-QQiMpGVP3VQ&s",
       "idade": "50 anos",
       "altura": "7 metros",
