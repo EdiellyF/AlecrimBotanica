@@ -1,0 +1,58 @@
+{
+  "title": "Árvores e Projetos de Preservação",
+  "arvores": [
+    {
+      "nome": "Pau-Brasil",
+      "imagem": "https://sitiomorrinhos.com.br/wp-content/uploads/2022/03/im-pau-brasil-1.jpeg",
+      "idade": "150 anos",
+      "altura": "20 metros",
+      "diametro_do_tronco": "1.5 metros",
+      "localizacao": "-12.9777° S, -38.5016° W",
+      "condicao_de_saude": "Boa",
+      "historico_de_podas": "Sem registros de podas"
+    },
+    {
+      "nome": "Ipê-Amarelo",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj1C14hD3ZRp3gi3Jlb6pxCNn--cNMyEbOyw&amp;s",
+      "idade": "40 anos",
+      "altura": "15 metros",
+      "diametro_do_tronco": "1.0 metros",
+      "localizacao": "-15.7801° S, -47.9292° W",
+      "condicao_de_saude": "Excelente",
+      "historico_de_podas": "Nenhum registro"
+    },
+    {
+      "nome": "Araucária",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUDKfuDuZpZqvZuJLhC7Eb2n5pziyO0bC4XA&amp;s",
+      "idade": "80 anos",
+      "altura": "30 metros",
+      "diametro_do_tronco": "1.3 metros",
+      "localizacao": "-25.4284° S, -49.2733° W",
+      "condicao_de_saude": "Regular",
+      "historico_de_podas": "Poda realizada em 2021"
+    }
+  ],
+  "projetos": [
+    {
+      "nome": "Reflorestamento da Mata Atlântica",
+      "descricao": "Projeto de recuperação da vegetação nativa.",
+      "objetivo": "Restaurar 500 hectares de floresta.",
+      "responsaveis": "Instituto Verde",
+      "parceiros": ["ONG EcoVida", "Governo Estadual"]
+    },
+    {
+      "nome": "Proteção do Cerrado",
+      "descricao": "Preservação de espécies ameaçadas.",
+      "objetivo": "Criar áreas protegidas para fauna e flora.",
+      "responsaveis": "Universidade Nacional",
+      "parceiros": ["WWF", "IBAMA"]
+    },
+    {
+      "nome": "Projeto Amazônia Sustentável",
+      "descricao": "Monitoramento de desmatamento ilegal.",
+      "objetivo": "Redução de queimadas e exploração ilegal.",
+      "responsaveis": "Fundação Ambiental",
+      "parceiros": ["Greenpeace", "ICMBio"]
+    }
+  ]
+}
