@@ -11,7 +11,7 @@ export function adicionarPlantaPaginaIndex(planta) {
     let img = document.createElement('img');
     img.src = planta.imagem;
     img.alt = planta.nome;
-   img.loading = "lazy"
+  img.loading = "lazy"
         //Conteiner para as informações da planta
        const infoDiv = document.createElement('div');
        infoDiv.classList.add("info");
@@ -19,6 +19,7 @@ export function adicionarPlantaPaginaIndex(planta) {
 
 
         const plantaInfos = [
+            {emoji: "🌿", label: "Pesquisador", value: planta.pesquisador},
             { emoji: "🌿", label: "Nome", value: planta.nome },
             { emoji: "🌳", label: "Idade", value: planta.idade },
             { emoji: "📏", label: "Altura", value: planta.altura },
@@ -29,10 +30,10 @@ export function adicionarPlantaPaginaIndex(planta) {
           ];
 
      
-           plantaInfos.forEach(info => {
+           plantaInfos.forEach(({emoji, label, value}) => {
                 const p = document.createElement('p');
                 p.classList.add("item");
-                p.innerHTML = `${info.emoji} <strong>${info.label}:</strong> ${info.value}`;
+                p.innerHTML = `${emoji} <strong>${label}:</strong> ${value}`;
                 div.appendChild(p);
 
               
@@ -52,3 +53,6 @@ export function adicionarPlantaPaginaIndex(planta) {
 
 
 }
+
+
+
