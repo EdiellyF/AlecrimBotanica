@@ -385,5 +385,33 @@ form {
 /*Sobre*/
 
 .tema{
-  background-color: #4f7c44;
+  color: #71c55d;
+  text-align: center;
+  margin-bottom: 40px;
 }
+
+.container-p{
+  margin: 40px 30px;
+}
+
+.list{
+  margin-top: 40px;
+}
+
+.paragr, dt, dd{
+  color: #6b6666;
+}
+
+.imagem{
+  width: 100%;
+  margin-top: 55px;
+}
+
+dt{
+  margin-bottom: 10px;
+}
+
+.paragr{
+  margin-bottom: 50px;
+}
+
