@@ -3,7 +3,7 @@ import {  adicionarPlantaPaginaIndex  } from './styles.js';
 let plantas = []
 
 
-async function getCerrado() {
+export async function getCerrado() {
     const resp = await fetch("src/js/cerrado.json")
     if(resp.status === 200){
         const obj = await resp.json()
@@ -16,18 +16,7 @@ async function getCerrado() {
 
 }
 
-async function adicionarNatureza() {
-    const planta = await getCerrado();
-  plantas.push(...planta.arvores);  
-  plantas.forEach(planta => {   
-     adicionarPlantaPaginaIndex(planta);
-   
-  })
 
-}
-
-
-adicionarNatureza()
 
 
 

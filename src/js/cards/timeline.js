@@ -10,11 +10,9 @@ export const mostrarEventos = () => {
         }
     });
 
-    eventos.forEach(evento => {
-        evento.addEventListener('mouseover', () => {
-          
-        });
-    });
+     
+
+    
 };
 
 
@@ -22,7 +20,7 @@ export const mostrarEventos = () => {
 
 
 window.addEventListener("scroll", mostrarEventos);
-document.addEventListener("DOMContentLoaded", mostrarEventos);
+
 
 
 
