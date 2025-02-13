@@ -385,11 +385,9 @@ form {
   }
 }
 
-/*Sobre*/
 
-.tema{
-  background-color: #4f7c44;
-}
+
+
 
 
 .timeline {
@@ -476,4 +474,26 @@ form {
   .evento::after {
       left: 10px;
   }
+}
+
+
+.projetos  {
+  display: grid;
+  place-items: center;
+}
+
+.imagem-floresta {
+   display: none;
+}
+
+.imagem-floresta.ativo {
+  display: block ;
+}
+
+
+
+.div-imagem {
+  display: grid;
+  align-items: center;
+  justify-items: center;
 }
