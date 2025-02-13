@@ -228,21 +228,97 @@
       "descricao": "Projeto de recuperação da vegetação nativa.",
       "objetivo": "Restaurar 500 hectares de floresta.",
       "responsaveis": "Instituto Verde",
-      "parceiros": ["ONG EcoVida", "Governo Estadual"]
+      "parceiros": ["ONG EcoVida", "Governo Estadual"],
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7kp4Vx5Ac4J3Kb_1r5ZbrRAaX4owdbaLXlQ&s"
     },
     {
       "nome": "Proteção do Cerrado",
       "descricao": "Preservação de espécies ameaçadas.",
       "objetivo": "Criar áreas protegidas para fauna e flora.",
       "responsaveis": "Universidade Nacional",
-      "parceiros": ["WWF", "IBAMA"]
+      "parceiros": ["Governo Estadual", "IBAMA"],
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7kp4Vx5Ac4J3Kb_1r5ZbrRAaX4owdbaLXlQ&s"
     },
     {
       "nome": "Projeto Amazônia Sustentável",
       "descricao": "Monitoramento de desmatamento ilegal.",
       "objetivo": "Redução de queimadas e exploração ilegal.",
       "responsaveis": "Fundação Ambiental",
-      "parceiros": ["Greenpeace", "ICMBio"]
+      "parceiros": ["Greenpeace", "ICMBio"],
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7kp4Vx5Ac4J3Kb_1r5ZbrRAaX4owdbaLXlQ&s"
+    },
+    {
+      "nome": "Conservação da Caatinga",
+      "descricao": "Proteção de espécies endêmicas da Caatinga.",
+      "objetivo": "Preservar 200 espécies nativas.",
+      "responsaveis": "Associação Caatinga",
+      "parceiros": ["SOS Caatinga", "Ministério do Meio Ambiente"],
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaXTWK_A1eYoLqvVv5pVS18A6Eb_P0hbvaKQ&s"
+    },
+    {
+      "nome": "Recuperação do Pantanal",
+      "descricao": "Projeto de recuperação de áreas degradadas.",
+      "objetivo": "Recuperar 1000 hectares de áreas alagadas.",
+      "responsaveis": "Instituto Pantanal",
+      "parceiros": ["IFTO", "Governo Federal"],
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLGA3WoPa8cBdWdCyznXPqfGR5MIWdwoS69A&s"
+    },
+    {
+      "nome": "Preservação da Mata de Araucárias",
+      "descricao": "Conservação de florestas de araucárias.",
+      "objetivo": "Proteger 300 hectares de mata.",
+      "responsaveis": "Fundação Araucária",
+      "parceiros": ["ONG Floresta Viva", "Prefeitura Municipal"],
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaXTWK_A1eYoLqvVv5pVS18A6Eb_P0hbvaKQ&s"
+    },
+    {
+      "nome": "Projeto Cerrado Vivo",
+      "descricao": "Iniciativa de proteção do bioma Cerrado.",
+      "objetivo": "Conservar 500 espécies de plantas.",
+      "responsaveis": "Instituto Cerrado",
+      "parceiros": ["Conservation International", "IBAMA"],
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLGA3WoPa8cBdWdCyznXPqfGR5MIWdwoS69A&s"
+    },
+    {
+      "nome": "Reflorestamento da Amazônia",
+      "descricao": "Projeto de plantio de árvores nativas.",
+      "objetivo": "Plantar 1 milhão de árvores.",
+      "responsaveis": "ONG Amazônia Verde",
+      "parceiros": ["Greenpeace", "Governo Estadual"],
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLGA3WoPa8cBdWdCyznXPqfGR5MIWdwoS69A&s"
+    },
+    {
+      "nome": "Proteção da Fauna do Pantanal",
+      "descricao": "Conservação de espécies animais do Pantanal.",
+      "objetivo": "Proteger 50 espécies ameaçadas.",
+      "responsaveis": "Instituto Fauna Pantanal",
+      "parceiros": ["WWF", "ICMBio"],
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvNRFPMED-zVH8DoizEC_HruF3wD23IrJmHA&s"
+    },
+    {
+      "nome": "Projeto Mata Ciliar",
+      "descricao": "Recuperação de matas ciliares em rios.",
+      "objetivo": "Restaurar 200 km de matas ciliares.",
+      "responsaveis": "Associação Mata Ciliar",
+      "parceiros": ["ONG EcoVida", "ICMBio"],
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvNRFPMED-zVH8DoizEC_HruF3wD23IrJmHA&s"
+    },
+    {
+      "nome": "Conservação do Bioma Pampa",
+      "descricao": "Proteção de áreas naturais do Pampa.",
+      "objetivo": "Preservar 1000 hectares de pastagens nativas.",
+      "responsaveis": "Fundação Pampa",
+      "parceiros": ["Conservation International", "Governo Estadual"],
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPX-3d-tu1hFfXNINQrhAN7vGfNk61SvlOlw&s"
+    },
+    {
+      "nome": "Projeto Manguezal",
+      "descricao": "Conservação de ecossistemas de manguezais.",
+      "objetivo": "Proteger 500 hectares de manguezais.",
+      "responsaveis": "Instituto Manguezal",
+      "parceiros": ["IFTO", "IBAMA"],
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPX-3d-tu1hFfXNINQrhAN7vGfNk61SvlOlw&s"
     }
   ]
+
 }

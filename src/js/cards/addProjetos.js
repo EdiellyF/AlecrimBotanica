@@ -15,6 +15,17 @@ export function addEvento(evento) {
     h2.innerHTML = evento.nome;
     conteudoDiv.appendChild(h2);
 
+
+    const divImagem = document.createElement('div');
+    divImagem.classList.add('div-imagem');
+
+        const img = document.createElement('img');
+        img.src = evento.imagem;
+        img.classList.add("imagem-floresta"); 
+        divImagem.appendChild(img);
+        eventoDiv.appendChild(divImagem);
+    
+
     const properties = ['descricao', 'objetivo', 'responsaveis', 'parceiros'];
 
     properties.forEach(prop => {
