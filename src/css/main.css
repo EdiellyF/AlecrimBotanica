@@ -2,6 +2,7 @@
 
 :root {
   --verde: #4f7c44;
+  --verdeclaro: #71c55d;
 }
 
 * {
@@ -496,4 +497,66 @@ form {
   display: grid;
   align-items: center;
   justify-items: center;
+}
+
+
+.header {
+  padding-top: 30px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+}
+
+
+/*tema*/
+
+.tema {
+  color: var(--verde);
+}
+
+dt.item {
+   font-weight: 900;
+}
+
+.section-sobre-sistema {
+  margin-bottom: 10px;
+}
+
+.section-sobre-sistema li {
+  
+  font-size: medium;
+  list-style: none;
+}
+
+.accordion {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+dt.item {
+  background-color: #cde7c7;
+  color: #110e0e;
+  border-bottom: 1px solid #2c2a2a36;
+  cursor: pointer;
+  padding: 15px;
+  font-size: 18px;
+  transition: background 0.3s;
+}
+
+dt.item:hover {
+  background: #77a45f;
+  color: #fff;
+}
+
+.cont {
+  display: none;
+  padding: 10px;
+  background: #fff;
+  border-left: 4px solid #77a45f;
+}
+
+.ativo {
+  display: block;
 }
