@@ -1,0 +1,17 @@
+ section.visual {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+textarea#mensagem{
+    border-color: darkgreen;
+    background-color: rgba(85, 107, 47, 0.181);
+    border-radius: 1%;
+}
+
+section.visual input {
+    height: 2.2rem;
+}
+
+
