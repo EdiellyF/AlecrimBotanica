@@ -45,8 +45,8 @@ function removerSombra(elemento) {
     }
     
     const imagem = elemento.querySelector(".imagem-floresta"); // Seleção da imagem dentro do elemento
-    if (imagem && imagem.classList.contains("ativo")) { // Verifica se a imagem ainda não tem a classe "ativo"
-        imagem.classList.remove("ativo"); // Remove a classe 'ativo' da imagem
+    if (imagem && imagem.classList.contains("ativo")) { 
+        imagem.classList.remove("ativo"); 
         imagem.style.transition = 'none';
         imagem.style.transform = 'none'; 
     }

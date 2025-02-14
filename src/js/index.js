@@ -22,8 +22,10 @@ const hamburger = document.querySelector('#hamburger').addEventListener('click',
         function toggleMenu() {
                     const navList = document.getElementById('nav_list');
                     const hamburger = document.querySelector('.hamburger'); 
+                    const mainContent = document.querySelector('main')
                     navList.classList.toggle('active');
                     hamburger.classList.toggle('active');
+                    mainContent.classList.toggle('menu-open');
         }
 
         async function adicionarNatureza() {
